@@ -1,0 +1,160 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #fafafa;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    font-size: .875rem;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #0095f6;
+}
+/**************************************
+**************************************/
+
+.flex-center-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/**************************************
+**************************************/
+
+.container {
+    width: 100%;
+}
+
+.main {
+    width: 55%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+/**************************************
+****************Login*****************/
+
+.login {
+    width: 100%;
+    max-width: 350px;
+    background: #fff;
+    border: 1px solid #dfdfdf;
+    border-radius: .15em;
+    padding: 2em 0 0.75em 0;
+}
+
+.logo {
+    margin-bottom: 1em;
+}
+
+.logo img {
+    display: block;
+    width: 175px;
+    margin: 0 auto; 
+}
+
+.loginForm {
+    width: 75%;
+}
+
+.userName,
+.password {
+    width: 100%;
+    padding: 9px 0 7px 8px;
+    border: 1px solid #eee;
+    border-radius: .25em;
+    margin: .5em 0;
+}
+
+.loginBtn {
+    width: 100%;
+    background: #a7e0fa;
+    border-radius: .375em;
+    padding: 0.5em 2em; 
+    margin: .5em 0;    
+    font-size: .875rem;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.activeBtn {
+    background-color: #009bf1;
+}
+
+/**************************************
+**************Divider*****************/
+
+.divider {
+    width: 75%;
+    margin: 1.5em auto;
+}
+
+.text{
+    width: 10%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #9f9f9f;
+    margin: 0 .7em;
+}
+
+.line {
+    border-top: 1px solid #cdcdcd;
+    width: 45%;
+}
+
+.fb {
+    text-align: center;
+    margin-bottom: 1.5em;
+}
+
+.fblogo {
+    background: url(../imgs/576406ccc24b.png);
+    background-position: -320px -224px;
+    width: 16px;
+    height: 16px;
+    margin-right: .5em;
+}
+
+.fb a {
+    font-weight: bold;
+    color: #385185;
+}
+
+.forgotpw {
+    text-align: center;
+    font-size: .75rem;
+    margin-bottom: 1.5em;
+}
+
+.forgotpw a{
+    font-weight: normal;
+    color: #00376b;
+}
+
+.signup {
+    width: 100%;
+    max-width: 350px;
+    background: #fff;
+    border: 1px solid #dfdfdf;
+    border-radius: .15em;
+    margin-top: 1em;
+    padding: .75em;
+}
+
+.signup p{
+    text-align: center;
+}
